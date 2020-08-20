@@ -1,0 +1,42 @@
+<div *ngIf="isAuthenticated | async">
+  <mat-accordion>
+    <mat-expansion-panel>
+      <mat-expansion-panel-header>
+        <mat-panel-title>
+          <div class="profile-container">
+            <img src="../../../assets/racer-head.png" alt="" />
+          </div>
+          <div>
+            {{ userName | async }}
+          </div>
+        </mat-panel-title>
+      </mat-expansion-panel-header>
+
+      <mat-list-item routerLink="[child.route]">
+        <div>
+          <a
+            class="nav-link text-dark"
+            [routerLink]="['/authentication/logout']"
+            [state]="{ local: true }"
+            title="Logout"
+            >Logout</a
+          >
+        </div>
+      </mat-list-item>
+    </mat-expansion-panel>
+  </mat-accordion>
+</div>
+<div *ngIf="!(isAuthenticated | async)">
+  <ul class="navbar-nav" *ngIf="!(isAuthenticated | async)">
+    <li class="nav-item">
+      <a class="nav-link text-dark" [routerLink]="['/authentication/register']"
+        >Register</a
+      >
+    </li>
+    <li class="nav-item">
+      <a class="nav-link text-dark" [routerLink]="['/authentication/login']"
+        >Login</a
+      >
+    </li>
+  </ul>
+</div>

@@ -1,0 +1,31 @@
+<mat-form-field class="chip-list">
+  <mat-chip-list #chipList aria-label="Theme selection">
+    <mat-chip
+      *ngFor="let theme of chipThemes"
+      [selectable]="selectable"
+      [removable]="removable"
+      (removed)="remove(theme.themeCode)"
+    >
+      {{ theme.name }}
+      <mat-icon matChipRemove *ngIf="removable">cancel</mat-icon>
+    </mat-chip>
+    <input
+      placeholder="Filter theme..."
+      #themeInput
+      [formControl]="themeCtrl"
+      [matAutocomplete]="auto"
+      [matChipInputFor]="chipList"
+      [matChipInputSeparatorKeyCodes]="separatorKeysCodes"
+      (matChipInputTokenEnd)="add($event)"
+    />
+  </mat-chip-list>
+  <mat-autocomplete
+    #auto="matAutocomplete"
+    (optionSelected)="selected($event)"
+    [displayWith]="displayTheme"
+  >
+    <mat-option *ngFor="let theme of filteredThemes | async" [value]="theme">
+      {{ theme.name }}
+    </mat-option>
+  </mat-autocomplete>
+</mat-form-field>

@@ -1,0 +1,139 @@
+<div class="row" *ngIf="product">
+  <div class="col image-col">
+    <mat-card>
+      <mat-card-content>
+        <div class="main-image-container">
+          <app-image-loader
+            [image]="mainImageUrl | image: 'large'"
+            [width]="600"
+          ></app-image-loader>
+        </div>
+      </mat-card-content>
+      <mat-card-actions> </mat-card-actions>
+    </mat-card>
+    <div class="thumbs-container mt-4">
+      <div *ngFor="let thumb of product.productImages">
+        <div *ngIf="thumb.filename" class="thumb-container">
+          <button (click)="setMainImageUrl(thumb.imageSrc)">
+            <img [src]="thumb.imageSrc | image: 'small'" />
+          </button>
+        </div>
+      </div>
+    </div>
+    <mat-card class="mt-3" *ngIf="product.inventory?.minifigs?.length > 0">
+      <mat-card-content>
+        <div class="thumbs-container">
+          <div *ngFor="let thumb of product.inventory.minifigs">
+            <div *ngIf="thumb.filename" class="minifig-container">
+              <img [src]="'api/' + thumb.imageSrc + '?width=150'" />
+            </div>
+          </div>
+        </div>
+      </mat-card-content>
+    </mat-card>
+  </div>
+  <div class="col">
+    <div class="row">
+      <div class="col">
+        <mat-card>
+          <mat-card-content>
+            <div>
+              <img [src]="product.themeImageUrl | image: 'medium'" />
+            </div>
+            <h1 class="mt-2">
+              <span class="product-name">{{ product.name }}</span>
+            </h1>
+            <div class="mt-2">
+              <app-product-info-squares
+                [product]="product"
+              ></app-product-info-squares>
+            </div>
+            <div class="mt-2">
+              <mat-tab-group dynamicHeight>
+                <mat-tab label="Links">
+                  <div class="mt-3 tab-content">
+                    <div *ngFor="let link of product.productLinks">
+                      <a [href]="link.url" target="_blank">{{
+                        link.siteName
+                      }}</a>
+                    </div>
+                  </div>
+                </mat-tab>
+                <mat-tab label="Categories">
+                  <div class="mt-3 tab-content">
+                    <div *ngFor="let category of product.productCategories">
+                      {{ category.categoryName }}
+                    </div>
+                  </div>
+                </mat-tab>
+              </mat-tab-group>
+            </div>
+          </mat-card-content>
+          <mat-card-actions> </mat-card-actions>
+        </mat-card>
+      </div>
+    </div>
+    <div class="row mt-3">
+      <div class="col">
+        <mat-card>
+          <h2>
+            Inventory
+          </h2>
+          <mat-card-content>
+            <mat-tab-group dynamicHeight>
+              <mat-tab
+                label="Minifigs"
+                *ngIf="product.inventory?.minifigs?.length > 0"
+              >
+                <div class="mt-3 tab-content">
+                  <div *ngFor="let minifig of product.inventory?.minifigs">
+                    {{ minifig.name }}
+                  </div>
+                </div>
+              </mat-tab>
+              <mat-tab label="Parts">
+                <div class="mt-3 tab-content">
+                  <table class="table">
+                    <thead>
+                      <th>
+                        Name
+                      </th>
+                      <th>Colour</th>
+                    </thead>
+                    <tbody>
+                      <tr *ngFor="let part of product.inventory?.parts">
+                        <td>
+                          {{ part.partName }}
+                        </td>
+                        <td>
+                          {{ part.colourName }}
+                        </td>
+                      </tr>
+                    </tbody>
+                  </table>
+                </div>
+              </mat-tab>
+            </mat-tab-group>
+          </mat-card-content>
+        </mat-card>
+      </div>
+    </div>
+    <div class="row mt-3">
+      <div class="col">
+        <mat-card>
+          <h2>
+            Collections
+          </h2>
+          <mat-card-content>
+            <app-collection-card
+              [currentProduct]="product"
+              [collections]="collections"
+              [reloadProductsOnRemove]="false"
+            ></app-collection-card>
+          </mat-card-content>
+          <mat-card-actions> </mat-card-actions>
+        </mat-card>
+      </div>
+    </div>
+  </div>
+</div>

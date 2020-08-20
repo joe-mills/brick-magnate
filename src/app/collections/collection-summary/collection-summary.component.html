@@ -1,0 +1,28 @@
+<div class="d-flex justify-content-between collection-info-squares-container">
+  <div class="collection-info-square">
+    <span class="box-value">{{ collection.setsTotal }}</span>
+    <span class="box-label">
+      Sets
+    </span>
+  </div>
+  <div class="collection-info-square">
+    <span class="box-value">{{ collection.piecesTotal }}</span>
+    <span class="box-label">
+      Pieces
+    </span>
+  </div>
+  <div class="collection-info-square">
+    <span class="box-value">{{ collection.minifigsTotal }}</span>
+    <span class="box-label">
+      Minifigs
+    </span>
+  </div>
+  <div class="collection-info-square">
+    <span class="box-value">{{
+      collection.rrpTotal | currency: 'GBP':'symbol'
+    }}</span>
+    <span class="box-label">
+      RRP
+    </span>
+  </div>
+</div>

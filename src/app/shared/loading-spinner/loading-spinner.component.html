@@ -1,0 +1,13 @@
+<div>
+  <div class="loading-shade" *ngIf="loading || error">
+    <div class="loading-spinner-wrapper">
+      <mat-spinner
+        *ngIf="loading && !error"
+        [color]="spinnerColour"
+      ></mat-spinner>
+    </div>
+    <div class="loading-error alert alert-danger" *ngIf="error">
+      Server error: {{ error }}
+    </div>
+  </div>
+</div>

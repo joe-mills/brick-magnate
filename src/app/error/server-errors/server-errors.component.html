@@ -1,0 +1,9 @@
+<div  *ngIf="(errors)?.length > 0">
+  <div >
+    <div class=" error-container" role="alert">
+      <ul>
+        <li *ngFor="let e of errors">{{ e }}</li>
+      </ul>
+    </div>
+  </div>
+</div>

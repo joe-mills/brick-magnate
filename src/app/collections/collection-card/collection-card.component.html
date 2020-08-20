@@ -1,0 +1,7 @@
+<app-collection-card-content
+  [collectionItems]="collectionItems$ | async"
+  [collections]="collections"
+  (addCurrentProductClicked)="addCurrentProduct($event)"
+  (removeCollectionItemClicked)="removeCollectionItem($event)"
+  (collectionItemEdited)="editCollectionItem($event)"
+></app-collection-card-content>

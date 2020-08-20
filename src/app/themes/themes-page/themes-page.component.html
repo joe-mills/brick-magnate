@@ -1,0 +1,6 @@
+<div>
+  <app-themes-list
+    [themes]="themes$ | async"
+    (themeSelected)="selectTheme($event)"
+  ></app-themes-list>
+</div>

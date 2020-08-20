@@ -1,0 +1,14 @@
+<div class="d-flex flex-wrap justify-content-around">
+  <div class="mr-3 mb-3" *ngFor="let theme of themes">
+    <mat-card
+      class="theme-card"
+      [routerLink]="['/products']"
+      [queryParams]="{ themeCodes: theme.themeCode }"
+      appMaterialElevation
+      [defaultElevation]="0"
+      raisedElevation="5"
+    >
+      <app-theme-card [theme]="theme"></app-theme-card>
+    </mat-card>
+  </div>
+</div>

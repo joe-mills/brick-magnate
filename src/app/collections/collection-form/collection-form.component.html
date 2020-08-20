@@ -1,0 +1,12 @@
+<form [formGroup]="form" (ngSubmit)="onSubmit()">
+  <mat-form-field class="w-100" appearance="fill">
+    <mat-label>Name</mat-label>
+    <input matInput formControlName="name" required />
+    <mat-error *ngIf="name.hasError('maxlength')"
+      >Name must be 255 characters or less</mat-error
+    >
+  </mat-form-field>
+  <div>
+    <button mat-button type="submit">Save</button>
+  </div>
+</form>

@@ -1,0 +1,9 @@
+<div class="row">
+  <div class="col-md-6">
+    <div *ngIf="collection$ | async as collection">
+      <mat-card class="collection-form-container">
+        <app-collection-form [collection]="collection" (formSaved)="saveCollection($event)"></app-collection-form>
+      </mat-card>
+    </div>
+  </div>
+</div>

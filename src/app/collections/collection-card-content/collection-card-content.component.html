@@ -1,0 +1,17 @@
+<div>
+  <div class="mb-2" *ngFor="let collectionItemGroup of collectionGroups">
+    <div class="d-flex justify-content-between">
+      {{ collectionItemGroup.collectionName }}
+      <button mat-button (click)="addCurrentProduct(collectionItemGroup)">
+        Add Set
+      </button>
+    </div>
+    <div *ngIf="collectionItemGroup.values as collectionItems">
+      <app-collection-table-form
+        [collectionItems]="collectionItems"
+        (removeCollectionItemClicked)="removeCollectionItem($event)"
+        (collectionItemEdited)="editCollectionItem($event)"
+      ></app-collection-table-form>
+    </div>
+  </div>
+</div>

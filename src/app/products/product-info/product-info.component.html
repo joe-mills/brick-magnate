@@ -1,0 +1,20 @@
+<div class="product-info">
+  <table class="table">
+    <tr>
+      <td>Theme</td>
+      <td>{{ product.themeName }}</td>
+    </tr>
+    <tr>
+      <td>Year</td>
+      <td>{{ product.year }}</td>
+    </tr>
+    <tr>
+      <td>Price</td>
+      <td>{{ product.price | currency: 'GBP' }}</td>
+    </tr>
+    <tr>
+      <td>Pieces</td>
+      <td>{{ product.piecesCount }}</td>
+    </tr>
+  </table>
+</div>

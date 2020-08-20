@@ -1,0 +1,29 @@
+<div>
+  <div class="" *ngFor="let group of productsList">
+    <div class="group-label mb-2" *ngIf="group.year">
+      <h3 class="group-label-text">{{ group.year }}</h3>
+    </div>
+    <div class="d-flex flex-wrap">
+      <div class="mr-3 mb-3" *ngFor="let item of group.groupItem">
+        <ng-container *ngIf="detailLevel === 1">
+          <app-product-card-compact
+            [product]="item"
+            [collections]="collections"
+            [collectionId]="collectionId"
+          ></app-product-card-compact>
+        </ng-container>
+        <ng-container *ngIf="detailLevel === 2">
+          <mat-card class="product-card">
+            <mat-card-content>
+              <app-product-card-medium
+                [product]="item"
+                [collections]="collections"
+                [expanded]="false"
+              ></app-product-card-medium>
+            </mat-card-content>
+          </mat-card>
+        </ng-container>
+      </div>
+    </div>
+  </div>
+</div>

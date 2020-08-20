@@ -1,0 +1,10 @@
+<div>
+  <div class="mb-2 d-flex justify-content-start">
+    <div *ngFor="let collection of collections">
+      <div class="collection-container mr-3">
+        <app-collection-summary-card [collection]="collection">
+        </app-collection-summary-card>
+      </div>
+    </div>
+  </div>
+</div>

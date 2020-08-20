@@ -1,0 +1,36 @@
+<!-- <mat-card> -->
+<div class="d-flex justify-content-between product-info-squares-container">
+  <div class="product-info-square">
+    <span class="box-value">
+      {{ product.productCode }}
+    </span>
+    <span class="box-label">
+      #
+    </span>
+  </div>
+  <div class="product-info-square">
+    <span class="box-value">
+      {{ product.piecesCount }}
+    </span>
+    <span class="box-label">
+      Pieces
+    </span>
+  </div>
+  <div class="product-info-square">
+    <span class="box-value">
+      {{ product.year }}
+    </span>
+    <span class="box-label">
+      Year
+    </span>
+  </div>
+  <div class="product-info-square">
+    <span class="box-value">
+      {{ product.price | currency: 'GBP':'symbol' }}
+    </span>
+    <span class="box-label">
+      RRP
+    </span>
+  </div>
+</div>
+<!-- </mat-card> -->

@@ -1,0 +1,38 @@
+/* You can add global styles to this file, and also import other style files */
+
+html,
+body {
+  height: 100%;
+}
+body {
+  margin: 0;
+  font-family: Roboto, 'Helvetica Neue', sans-serif;
+}
+.mat-icon.fa {
+  font-size: 20px;
+}
+.sidenav {
+  background-color: #181819;
+  .mat-list-text {
+    color: white;
+    font-size: 14px;
+    padding-left: 0 !important;
+  }
+  .mat-subheader {
+    color: white;
+  }
+  .mat-divider {
+    border-top-color: #4c4c4c;
+  }
+}
+.mat-toolbar {
+  color: white;
+}
+.mat-sidenav-container {
+  background-color: #eeeeee;
+}
+.title-link {
+  a {
+    color: black;
+  }
+}

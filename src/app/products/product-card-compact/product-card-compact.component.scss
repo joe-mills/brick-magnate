@@ -1,0 +1,47 @@
+.product-card-compact {
+  width: 230px;
+  height: 240px;
+}
+.image-container {
+  height: 130px;
+  position: relative;
+  img {
+    height: 100%;
+    width: 100%;
+    object-fit: scale-down;
+  }
+}
+.product-title {
+  a {
+    color: black;
+    font-size: 1rem;
+    line-height: 1.5625rem;
+    font-weight: 500;
+  }
+}
+.truncate {
+  width: 200px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.menu-icons {
+  position: absolute;
+  z-index: 9;
+  width: 100%;
+}
+.theme-container {
+  height: 12px;
+  width: 60%;
+  img {
+    object-fit: contain;
+    object-position: left;
+    width: 100%;
+    height: 100%;
+  }
+}
+@media (max-width: 2440px) {
+  .product-card-compact {
+    width: 224px;
+  }
+}

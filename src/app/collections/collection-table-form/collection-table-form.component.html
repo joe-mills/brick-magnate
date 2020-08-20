@@ -1,0 +1,72 @@
+<form [formGroup]="form">
+  <table
+    mat-table
+    formArrayName="collectionItems"
+    [dataSource]="collectionItems"
+    class="w-100"
+  >
+    <ng-container matColumnDef="quantity">
+      <th mat-header-cell *matHeaderCellDef>Quantity</th>
+      <td
+        class="number-td"
+        mat-cell
+        *matCellDef="let element; let rowIndex = index"
+        [formGroupName]="rowIndex"
+      >
+        <input type="number" matInput formControlName="quantity" />
+      </td>
+    </ng-container>
+
+    <ng-container matColumnDef="purchasePrice">
+      <th mat-header-cell *matHeaderCellDef>Paid</th>
+      <td
+        class="number-td"
+        mat-cell
+        *matCellDef="let element; let rowIndex = index"
+        [formGroupName]="rowIndex"
+      >
+        <input type="number" matInput formControlName="purchasePrice" />
+      </td>
+    </ng-container>
+    <ng-container matColumnDef="purchaseDate">
+      <th mat-header-cell *matHeaderCellDef>Purchased</th>
+      <td
+        mat-cell
+        *matCellDef="let element; let rowIndex = index"
+        [formGroupName]="rowIndex"
+      >
+        <div class="d-flex">
+          <input
+            matInput
+            [matDatepicker]="picker"
+            formControlName="purchaseDate"
+          />
+          <mat-datepicker-toggle
+            matSuffix
+            [for]="picker"
+          ></mat-datepicker-toggle>
+        </div>
+        <mat-datepicker #picker></mat-datepicker>
+      </td>
+    </ng-container>
+    <ng-container matColumnDef="menu">
+      <th mat-header-cell *matHeaderCellDef></th>
+      <td mat-cell *matCellDef="let element">
+        <button
+          color="accent"
+          aria-label="Remove collection item"
+          (click)="removeCollectionItem(element)"
+        >
+          <fa-icon
+            class="menu-icon"
+            mat-list-icon
+            [icon]="['far', 'trash-alt']"
+          ></fa-icon>
+        </button>
+      </td>
+    </ng-container>
+
+    <tr mat-header-row *matHeaderRowDef="displayedColumns"></tr>
+    <tr mat-row *matRowDef="let row; columns: displayedColumns"></tr>
+  </table>
+</form>

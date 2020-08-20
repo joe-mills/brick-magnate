@@ -1,0 +1,38 @@
+<form
+  class="search-form example-form"
+  [formGroup]="form"
+  (ngSubmit)="onSubmit()"
+>
+  <mat-form-field class="example-full-width">
+    <input
+      matInput
+      placeholder=" Search.."
+      [matAutocomplete]="auto"
+      formControlName="search"
+    />
+    <mat-autocomplete
+      #auto="matAutocomplete"
+      (optionSelected)="searchItemSelect($event)"
+    >
+      <mat-option
+        *ngFor="let searchItem of filteredResults"
+        [value]="searchItem.id"
+      >
+        <div class="search-item-container">
+          <img [src]="searchItem.imageUrl | image" alt="" />
+          <div class="">
+            <p class="search-item-name">
+              {{ searchItem.name }}
+            </p>
+            <p data-test="search-item-code" class="">
+              {{ searchItem.productCode }}
+            </p>
+            <p data-test="search-item-price" class="">
+              {{ searchItem.price | currency: 'GBP' }}
+            </p>
+          </div>
+        </div>
+      </mat-option>
+    </mat-autocomplete>
+  </mat-form-field>
+</form>

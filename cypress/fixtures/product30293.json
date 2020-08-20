@@ -1,0 +1,538 @@
+{
+  "id": 3438,
+  "name": "Kai Drifter",
+  "productCode": "30293",
+  "price": null,
+  "ages": null,
+  "piecesCount": 43,
+  "vipPoints": null,
+  "limit": null,
+  "legoShopProductPage": null,
+  "year": "2015",
+  "mainImageUrl": "api/product-images/30293_14237.jpg",
+  "minifigs": 1,
+  "themeId": 30,
+  "legoShopImageUrl": null,
+  "themeName": "NINJAGO®",
+  "themeImageUrl": "https://www.lego.com/cdn/cs/set/assets/bltc26efeafda5f77e6/ninjago_logo_neg_300w.png?fit=bounds&format=png&height=35&dpr=1",
+  "inventory": {
+    "id": 337,
+    "version": 1,
+    "productCode": "30293",
+    "productId": 3438,
+    "minifigs": [
+      {
+        "id": 86,
+        "name": "Kai with Bandana",
+        "piecesCount": 5,
+        "filename": "fig-001302_689.jpg",
+        "imageSrc": "product-images/fig-001302_689.jpg"
+      }
+    ],
+    "parts": [
+      {
+        "id": 302281,
+        "inventoryId": 337,
+        "partId": 1819,
+        "partName": "Weapon Gun / Blaster / Shooter Mini",
+        "colourName": "Speckle Black-Silver"
+      },
+      {
+        "id": 302282,
+        "inventoryId": 337,
+        "partId": 1819,
+        "partName": "Weapon Gun / Blaster / Shooter Mini",
+        "colourName": "Speckle Black-Gold"
+      },
+      {
+        "id": 302283,
+        "inventoryId": 337,
+        "partId": 1819,
+        "partName": "Weapon Gun / Blaster / Shooter Mini",
+        "colourName": "Black"
+      },
+      {
+        "id": 302284,
+        "inventoryId": 337,
+        "partId": 1819,
+        "partName": "Weapon Gun / Blaster / Shooter Mini",
+        "colourName": "Speckle Black-Copper"
+      },
+      {
+        "id": 302285,
+        "inventoryId": 337,
+        "partId": 1819,
+        "partName": "Weapon Gun / Blaster / Shooter Mini",
+        "colourName": "[No Color/Any Color]"
+      },
+      {
+        "id": 302286,
+        "inventoryId": 337,
+        "partId": 1820,
+        "partName": "Weapon Gun Trigger",
+        "colourName": "Speckle DBGray-Silver"
+      },
+      {
+        "id": 302287,
+        "inventoryId": 337,
+        "partId": 1820,
+        "partName": "Weapon Gun Trigger",
+        "colourName": "Dark Bluish Gray"
+      },
+      {
+        "id": 302288,
+        "inventoryId": 337,
+        "partId": 1820,
+        "partName": "Weapon Gun Trigger",
+        "colourName": "Speckle DBGray-Silver"
+      },
+      {
+        "id": 302289,
+        "inventoryId": 337,
+        "partId": 1820,
+        "partName": "Weapon Gun Trigger",
+        "colourName": "Dark Bluish Gray"
+      },
+      {
+        "id": 302290,
+        "inventoryId": 337,
+        "partId": 1996,
+        "partName": "Slope 45° 2 x 1 Triple with Inside Stud Holder",
+        "colourName": "Speckle Black-Silver"
+      },
+      {
+        "id": 302291,
+        "inventoryId": 337,
+        "partId": 1996,
+        "partName": "Slope 45° 2 x 1 Triple with Inside Stud Holder",
+        "colourName": "Speckle Black-Gold"
+      },
+      {
+        "id": 302292,
+        "inventoryId": 337,
+        "partId": 1996,
+        "partName": "Slope 45° 2 x 1 Triple with Inside Stud Holder",
+        "colourName": "Black"
+      },
+      {
+        "id": 302293,
+        "inventoryId": 337,
+        "partId": 1996,
+        "partName": "Slope 45° 2 x 1 Triple with Inside Stud Holder",
+        "colourName": "Speckle Black-Copper"
+      },
+      {
+        "id": 302294,
+        "inventoryId": 337,
+        "partId": 1996,
+        "partName": "Slope 45° 2 x 1 Triple with Inside Stud Holder",
+        "colourName": "[No Color/Any Color]"
+      },
+      {
+        "id": 302295,
+        "inventoryId": 337,
+        "partId": 1998,
+        "partName": "Plate Special 1 x 2 with 1 Stud with Groove and Inside Stud Holder (Jumper)",
+        "colourName": "Pearl Gold"
+      },
+      {
+        "id": 302296,
+        "inventoryId": 337,
+        "partId": 2016,
+        "partName": "Minifig Neckwear Bandana (Ninjago)",
+        "colourName": "Red"
+      },
+      {
+        "id": 302297,
+        "inventoryId": 337,
+        "partId": 2016,
+        "partName": "Minifig Neckwear Bandana (Ninjago)",
+        "colourName": "Trans-Red"
+      },
+      {
+        "id": 302298,
+        "inventoryId": 337,
+        "partId": 2120,
+        "partName": "Tile Special 1 x 1 with Clip with Rounded Edges",
+        "colourName": "Pearl Gold"
+      },
+      {
+        "id": 302299,
+        "inventoryId": 337,
+        "partId": 2120,
+        "partName": "Tile Special 1 x 1 with Clip with Rounded Edges",
+        "colourName": "Dark Red"
+      },
+      {
+        "id": 302300,
+        "inventoryId": 337,
+        "partId": 4584,
+        "partName": "Tile Special 1 x 2 Grille with Bottom Groove",
+        "colourName": "Speckle Black-Silver"
+      },
+      {
+        "id": 302301,
+        "inventoryId": 337,
+        "partId": 4584,
+        "partName": "Tile Special 1 x 2 Grille with Bottom Groove",
+        "colourName": "Speckle Black-Gold"
+      },
+      {
+        "id": 302302,
+        "inventoryId": 337,
+        "partId": 4584,
+        "partName": "Tile Special 1 x 2 Grille with Bottom Groove",
+        "colourName": "Black"
+      },
+      {
+        "id": 302303,
+        "inventoryId": 337,
+        "partId": 4584,
+        "partName": "Tile Special 1 x 2 Grille with Bottom Groove",
+        "colourName": "Speckle Black-Copper"
+      },
+      {
+        "id": 302304,
+        "inventoryId": 337,
+        "partId": 4584,
+        "partName": "Tile Special 1 x 2 Grille with Bottom Groove",
+        "colourName": "[No Color/Any Color]"
+      },
+      {
+        "id": 302305,
+        "inventoryId": 337,
+        "partId": 5708,
+        "partName": "Plate Round 2 x 2 with Rounded Bottom [Boat Stud]",
+        "colourName": "Trans-Orange"
+      },
+      {
+        "id": 302306,
+        "inventoryId": 337,
+        "partId": 5708,
+        "partName": "Plate Round 2 x 2 with Rounded Bottom [Boat Stud]",
+        "colourName": "Glitter Trans-Orange"
+      },
+      {
+        "id": 302307,
+        "inventoryId": 337,
+        "partId": 6602,
+        "partName": "Minifig Handlebars",
+        "colourName": "Speckle DBGray-Silver"
+      },
+      {
+        "id": 302308,
+        "inventoryId": 337,
+        "partId": 6602,
+        "partName": "Minifig Handlebars",
+        "colourName": "Dark Bluish Gray"
+      },
+      {
+        "id": 302309,
+        "inventoryId": 337,
+        "partId": 7566,
+        "partName": "Plate 2 x 2",
+        "colourName": "Red"
+      },
+      {
+        "id": 302310,
+        "inventoryId": 337,
+        "partId": 7566,
+        "partName": "Plate 2 x 2",
+        "colourName": "Trans-Red"
+      },
+      {
+        "id": 302311,
+        "inventoryId": 337,
+        "partId": 7577,
+        "partName": "Plate 1 x 2",
+        "colourName": "Red"
+      },
+      {
+        "id": 302312,
+        "inventoryId": 337,
+        "partId": 7577,
+        "partName": "Plate 1 x 2",
+        "colourName": "Trans-Red"
+      },
+      {
+        "id": 302313,
+        "inventoryId": 337,
+        "partId": 8116,
+        "partName": "Brick Special 1 x 4 with 4 Studs on One Side",
+        "colourName": "Speckle Black-Silver"
+      },
+      {
+        "id": 302314,
+        "inventoryId": 337,
+        "partId": 8116,
+        "partName": "Brick Special 1 x 4 with 4 Studs on One Side",
+        "colourName": "Speckle Black-Gold"
+      },
+      {
+        "id": 302315,
+        "inventoryId": 337,
+        "partId": 8116,
+        "partName": "Brick Special 1 x 4 with 4 Studs on One Side",
+        "colourName": "Black"
+      },
+      {
+        "id": 302316,
+        "inventoryId": 337,
+        "partId": 8116,
+        "partName": "Brick Special 1 x 4 with 4 Studs on One Side",
+        "colourName": "Speckle Black-Copper"
+      },
+      {
+        "id": 302317,
+        "inventoryId": 337,
+        "partId": 8116,
+        "partName": "Brick Special 1 x 4 with 4 Studs on One Side",
+        "colourName": "[No Color/Any Color]"
+      },
+      {
+        "id": 302318,
+        "inventoryId": 337,
+        "partId": 8189,
+        "partName": "Brick Special 1 x 2 with 2 Pins",
+        "colourName": "Speckle DBGray-Silver"
+      },
+      {
+        "id": 302319,
+        "inventoryId": 337,
+        "partId": 8189,
+        "partName": "Brick Special 1 x 2 with 2 Pins",
+        "colourName": "Dark Bluish Gray"
+      },
+      {
+        "id": 302320,
+        "inventoryId": 337,
+        "partId": 11407,
+        "partName": "Plate 1 x 3",
+        "colourName": "Red"
+      },
+      {
+        "id": 302321,
+        "inventoryId": 337,
+        "partId": 11407,
+        "partName": "Plate 1 x 3",
+        "colourName": "Trans-Red"
+      },
+      {
+        "id": 302322,
+        "inventoryId": 337,
+        "partId": 14824,
+        "partName": "Plate 2 x 6",
+        "colourName": "Speckle Black-Silver"
+      },
+      {
+        "id": 302323,
+        "inventoryId": 337,
+        "partId": 14824,
+        "partName": "Plate 2 x 6",
+        "colourName": "Speckle Black-Gold"
+      },
+      {
+        "id": 302324,
+        "inventoryId": 337,
+        "partId": 14824,
+        "partName": "Plate 2 x 6",
+        "colourName": "Black"
+      },
+      {
+        "id": 302325,
+        "inventoryId": 337,
+        "partId": 14824,
+        "partName": "Plate 2 x 6",
+        "colourName": "Speckle Black-Copper"
+      },
+      {
+        "id": 302326,
+        "inventoryId": 337,
+        "partId": 14824,
+        "partName": "Plate 2 x 6",
+        "colourName": "[No Color/Any Color]"
+      },
+      {
+        "id": 302327,
+        "inventoryId": 337,
+        "partId": 16263,
+        "partName": "Wedge Plate 4 x 2 Right",
+        "colourName": "Red"
+      },
+      {
+        "id": 302328,
+        "inventoryId": 337,
+        "partId": 16263,
+        "partName": "Wedge Plate 4 x 2 Right",
+        "colourName": "Trans-Red"
+      },
+      {
+        "id": 302329,
+        "inventoryId": 337,
+        "partId": 16264,
+        "partName": "Wedge Plate 4 x 2 Left",
+        "colourName": "Red"
+      },
+      {
+        "id": 302330,
+        "inventoryId": 337,
+        "partId": 16264,
+        "partName": "Wedge Plate 4 x 2 Left",
+        "colourName": "Trans-Red"
+      },
+      {
+        "id": 302331,
+        "inventoryId": 337,
+        "partId": 18487,
+        "partName": "Wedge Curved 4 x 4 No Top Studs",
+        "colourName": "Red"
+      },
+      {
+        "id": 302332,
+        "inventoryId": 337,
+        "partId": 18487,
+        "partName": "Wedge Curved 4 x 4 No Top Studs",
+        "colourName": "Trans-Red"
+      },
+      {
+        "id": 302333,
+        "inventoryId": 337,
+        "partId": 21330,
+        "partName": "Slope 18° 2 x 1 x 2/3 with 4 Slots",
+        "colourName": "Speckle Black-Silver"
+      },
+      {
+        "id": 302334,
+        "inventoryId": 337,
+        "partId": 21330,
+        "partName": "Slope 18° 2 x 1 x 2/3 with 4 Slots",
+        "colourName": "Speckle Black-Gold"
+      },
+      {
+        "id": 302335,
+        "inventoryId": 337,
+        "partId": 21330,
+        "partName": "Slope 18° 2 x 1 x 2/3 with 4 Slots",
+        "colourName": "Black"
+      },
+      {
+        "id": 302336,
+        "inventoryId": 337,
+        "partId": 21330,
+        "partName": "Slope 18° 2 x 1 x 2/3 with 4 Slots",
+        "colourName": "Speckle Black-Copper"
+      },
+      {
+        "id": 302337,
+        "inventoryId": 337,
+        "partId": 21330,
+        "partName": "Slope 18° 2 x 1 x 2/3 with 4 Slots",
+        "colourName": "[No Color/Any Color]"
+      },
+      {
+        "id": 302338,
+        "inventoryId": 337,
+        "partId": 21331,
+        "partName": "Plate Round 1 x 1 with Solid Stud",
+        "colourName": "Trans-Neon Orange"
+      },
+      {
+        "id": 302339,
+        "inventoryId": 337,
+        "partId": 21331,
+        "partName": "Plate Round 1 x 1 with Solid Stud",
+        "colourName": "Trans-Neon Orange"
+      },
+      {
+        "id": 302340,
+        "inventoryId": 337,
+        "partId": 33482,
+        "partName": "Weapon Sai",
+        "colourName": "Pearl Gold"
+      },
+      {
+        "id": 302341,
+        "inventoryId": 337,
+        "partId": 33482,
+        "partName": "Weapon Sai",
+        "colourName": "Pearl Gold"
+      },
+      {
+        "id": 302342,
+        "inventoryId": 337,
+        "partId": 34023,
+        "partName": "Bracket 1 x 2 - 1 x 2 Inverted",
+        "colourName": "Speckle Black-Silver"
+      },
+      {
+        "id": 302343,
+        "inventoryId": 337,
+        "partId": 34023,
+        "partName": "Bracket 1 x 2 - 1 x 2 Inverted",
+        "colourName": "Speckle Black-Gold"
+      },
+      {
+        "id": 302344,
+        "inventoryId": 337,
+        "partId": 34023,
+        "partName": "Bracket 1 x 2 - 1 x 2 Inverted",
+        "colourName": "Black"
+      },
+      {
+        "id": 302345,
+        "inventoryId": 337,
+        "partId": 34023,
+        "partName": "Bracket 1 x 2 - 1 x 2 Inverted",
+        "colourName": "Speckle Black-Copper"
+      },
+      {
+        "id": 302346,
+        "inventoryId": 337,
+        "partId": 34023,
+        "partName": "Bracket 1 x 2 - 1 x 2 Inverted",
+        "colourName": "[No Color/Any Color]"
+      }
+    ]
+  },
+  "productImages": [
+    {
+      "id": 11197,
+      "productId": 3438,
+      "filename": "30293_11197.jpg",
+      "alt": null,
+      "imageSrc": "product-images/30293_11197.jpg"
+    },
+    {
+      "id": 11198,
+      "productId": 3438,
+      "filename": "30293_11198.jpg",
+      "alt": null,
+      "imageSrc": "product-images/30293_11198.jpg"
+    },
+    {
+      "id": 11199,
+      "productId": 3438,
+      "filename": "30293_11199.jpg",
+      "alt": null,
+      "imageSrc": "product-images/30293_11199.jpg"
+    },
+    {
+      "id": 14237,
+      "productId": 3438,
+      "filename": "30293_14237.jpg",
+      "alt": null,
+      "imageSrc": "product-images/30293_14237.jpg"
+    }
+  ],
+  "productLinks": [
+    {
+      "id": 2871,
+      "productId": 3438,
+      "url": "http://brickset.com/sets/30293-1/Kai-Drifter",
+      "siteId": 1,
+      "siteName": "brickset"
+    }
+  ],
+  "productCategories": [],
+  "collectionItems": []
+}

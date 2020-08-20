@@ -1,0 +1,9 @@
+<div *ngIf="lastLoaded$ | async as lastLoaded; else loading">
+  <app-year-filter-chips
+    [years]="years$ | async"
+    (yearSelected)="selectYears($event)"
+  ></app-year-filter-chips>
+</div>
+<ng-template #loading>
+  loading...
+</ng-template>

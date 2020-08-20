@@ -1,0 +1,20 @@
+<div *ngIf="collectionItems$ | async as collectionItems">
+  <table class="table">
+    <thead>
+      <tr>
+        <th>Code</th>
+        <th>Name</th>
+        <th>Quantity</th>
+        <th>Paid</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr *ngFor="let collectionItem of collectionItems">
+        <td>{{ collectionItem.productCode }}</td>
+        <td>{{ collectionItem.productName }}</td>
+        <td>{{ collectionItem.quantity }}</td>
+        <td>{{ collectionItem.purchasePrice }}</td>
+      </tr>
+    </tbody>
+  </table>
+</div>

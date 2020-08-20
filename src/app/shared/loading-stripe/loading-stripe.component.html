@@ -1,0 +1,6 @@
+<div class="loading-indicator" *ngIf="loading$ | async else spacer">
+    <mat-progress-bar mode="indeterminate"></mat-progress-bar>
+</div>
+<ng-template #spacer>
+    <div class="spacer"></div>
+</ng-template>

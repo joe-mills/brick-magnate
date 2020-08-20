@@ -1,0 +1,20 @@
+<mat-card>
+  <div class="d-flex justify-content-between mb-2">
+    <h2
+      class="card-title"
+      [routerLink]="['/products/collection', collection.id]"
+   
+      routerLinkActive="router-link-active"
+    >
+      {{ collection.name }}
+    </h2>
+    <div>
+      <button mat-icon-button (click)="deleteCollection(collection)">
+        <mat-icon>delete</mat-icon>
+      </button>
+    </div>
+  </div>
+  <mat-card-content>
+    <app-collection-summary [collection]="collection"> </app-collection-summary>
+  </mat-card-content>
+</mat-card>

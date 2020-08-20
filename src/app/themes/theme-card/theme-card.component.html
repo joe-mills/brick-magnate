@@ -1,0 +1,14 @@
+<div class="theme-body" *ngIf="theme">
+  <div class="row mb-2">
+    <div class="col image-container">
+      <img [src]="theme.logoImage | image: 'theme'" />
+    </div>
+  </div>
+  <div class="row">
+    <div class="col">
+      <div class="title-link">
+        <h2>{{ theme.name }}</h2>
+      </div>
+    </div>
+  </div>
+</div>

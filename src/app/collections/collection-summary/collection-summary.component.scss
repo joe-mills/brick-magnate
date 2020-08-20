@@ -1,0 +1,26 @@
+.collection-info-squares-container {
+  justify-content: center;
+  width: 100%;
+}
+.collection-info-square {
+  width: 100%;
+  padding: 0.8rem 1.9rem;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  border-left: 1px solid rgb(224, 224, 224);
+  &:first-child {
+    border-left: 0px;
+  }
+}
+.box-value {
+  font-weight: 500;
+  height: 30px;
+  align-items: center;
+  margin-bottom: 0.3125rem;
+}
+.box-value {
+  font-size: 1.1rem;
+  line-height: 2rem;
+  align-items: center;
+}

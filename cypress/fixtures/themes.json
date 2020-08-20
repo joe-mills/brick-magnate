@@ -1,0 +1,348 @@
+{
+  "results": [
+    {
+      "id": 1,
+      "name": "Architecture",
+      "themeCode": "architecture",
+      "legoShopThemePage": "https://www.lego.com/en-gb/themes/architecture",
+      "logoImage": "https://www.lego.com/cdn/cs/set/assets/blt74d9b821ba4db6f2/architecture--201606--gl--logo-black.png?fit=bounds&format=png&height=35&dpr=1"
+    },
+    {
+      "id": 2,
+      "name": "BOOST",
+      "themeCode": "boost",
+      "legoShopThemePage": "https://www.lego.com/en-gb/themes/boost",
+      "logoImage": "https://www.lego.com/cdn/cs/set/assets/blt81810b888ffa1c0c/boost--201702--gl--logo.png?fit=bounds&format=png&height=35&dpr=1"
+    },
+    {
+      "id": 3,
+      "name": "Classic",
+      "themeCode": "classic",
+      "legoShopThemePage": "https://www.lego.com/en-gb/themes/classic",
+      "logoImage": "https://www.lego.com/cdn/cs/set/assets/bltb20d3bc87372c9e0/classic--201606--gl--logo.png?fit=bounds&format=png&height=35&dpr=1"
+    },
+    {
+      "id": 4,
+      "name": "City",
+      "themeCode": "city",
+      "legoShopThemePage": "https://www.lego.com/en-gb/themes/city",
+      "logoImage": "https://www.lego.com/cdn/cs/set/assets/blt2596b491a0985819/city--201606--gl--logo.png?fit=bounds&format=png&height=35&dpr=1"
+    },
+    {
+      "id": 5,
+      "name": "Creator Expert",
+      "themeCode": "creator-expert",
+      "legoShopThemePage": "https://www.lego.com/en-gb/themes/creator-expert",
+      "logoImage": "https://www.lego.com/cdn/cs/set/assets/blt736b2d676ffde96d/creator_logo_pos_300w.png?fit=bounds&format=png&height=35&dpr=1"
+    },
+    {
+      "id": 6,
+      "name": "DC Super Heroes",
+      "themeCode": "dc",
+      "legoShopThemePage": "https://www.lego.com/en-gb/themes/dc",
+      "logoImage": "https://www.lego.com/cdn/cs/set/assets/blt8e7eeaecabb9c023/dc--201801--gl--logo.png?fit=bounds&format=png&height=35&dpr=1"
+    },
+    {
+      "id": 7,
+      "name": "Creator 3-in-1",
+      "themeCode": "creator-3-in-1",
+      "legoShopThemePage": "https://www.lego.com/en-gb/themes/creator-3-in-1",
+      "logoImage": "https://www.lego.com/cdn/cs/set/assets/blt736b2d676ffde96d/creator_logo_pos_300w.png?fit=bounds&format=png&height=35&dpr=1"
+    },
+    {
+      "id": 8,
+      "name": "Disney™",
+      "themeCode": "disney",
+      "legoShopThemePage": "https://www.lego.com/en-gb/themes/disney",
+      "logoImage": "https://www.lego.com/cdn/cs/set/assets/blt48100fb86bcb653c/disney-black--201606--gl--logo.png?fit=bounds&format=png&height=35&dpr=1"
+    },
+    {
+      "id": 9,
+      "name": "DUPLO®",
+      "themeCode": "duplo",
+      "legoShopThemePage": "https://www.lego.com/en-gb/themes/duplo",
+      "logoImage": "https://www.lego.com/cdn/cs/set/assets/blt21df384c942ee0ad/duplo--201606--gl--logo.png?fit=bounds&format=png&height=35&dpr=1"
+    },
+    {
+      "id": 10,
+      "name": "Elves",
+      "themeCode": "elves",
+      "legoShopThemePage": "https://www.lego.com/en-gb/themes/elves",
+      "logoImage": null
+    },
+    {
+      "id": 11,
+      "name": "Fantastic Beasts™",
+      "themeCode": "fantastic-beasts",
+      "legoShopThemePage": "https://www.lego.com/en-gb/themes/fantastic-beasts",
+      "logoImage": "https://www.lego.com/cdn/cs/set/assets/bltc8118e21fab85749/fantastic-beasts--201808--gl--logo.png?fit=bounds&format=png&height=35&dpr=1"
+    },
+    {
+      "id": 12,
+      "name": "Frozen 2",
+      "themeCode": "disney-frozen-2",
+      "legoShopThemePage": "https://www.lego.com/en-gb/themes/disney-frozen-2",
+      "logoImage": "https://www.lego.com/cdn/cs/set/assets/blt2f690a23483ef895/frozen-2-logo.png?fit=bounds&format=png&height=35&dpr=1"
+    },
+    {
+      "id": 13,
+      "name": "Friends",
+      "themeCode": "friends",
+      "legoShopThemePage": "https://www.lego.com/en-gb/themes/friends",
+      "logoImage": "https://www.lego.com/cdn/cs/set/assets/blt9d40eae1a452f35d/friends--201801--gl--logo.png?fit=bounds&format=png&height=35&dpr=1"
+    },
+    {
+      "id": 14,
+      "name": "Harry Potter™",
+      "themeCode": "harry-potter",
+      "legoShopThemePage": "https://www.lego.com/en-gb/themes/harry-potter",
+      "logoImage": "https://www.lego.com/cdn/cs/set/assets/blt3fab5adae4b1cd38/HarryPotter--2018--gl--logo.png?fit=bounds&format=png&height=35&dpr=1"
+    },
+    {
+      "id": 15,
+      "name": "BrickHeadz",
+      "themeCode": "brickheadz",
+      "legoShopThemePage": "https://www.lego.com/en-gb/themes/brickheadz",
+      "logoImage": "https://www.lego.com/cdn/cs/set/assets/blt03339adec2208b9c/brickheadz--201701--gl--logo.png?fit=bounds&format=png&height=35&dpr=1"
+    },
+    {
+      "id": 16,
+      "name": "Hidden Side™",
+      "themeCode": "about",
+      "legoShopThemePage": "https://www.lego.com/en-gb/themes/hidden-side/about",
+      "logoImage": "https://www.lego.com/cdn/cs/set/assets/blt04756ed3977f74dc/Originals-Home-201910-Black-Logo.png?fit=bounds&format=png&height=35&dpr=1"
+    },
+    {
+      "id": 17,
+      "name": "Ideas",
+      "themeCode": "ideas",
+      "legoShopThemePage": "https://www.lego.com/en-gb/themes/ideas",
+      "logoImage": "https://www.lego.com/cdn/cs/set/assets/bltd98ef2aa6a3dab58/ideas-black--201606--gl--logo.png?fit=bounds&format=png&height=35&dpr=1"
+    },
+    {
+      "id": 18,
+      "name": "Juniors",
+      "themeCode": "juniors",
+      "legoShopThemePage": "https://www.lego.com/en-gb/themes/juniors",
+      "logoImage": null
+    },
+    {
+      "id": 19,
+      "name": "Jurassic World™",
+      "themeCode": "jurassic-world",
+      "legoShopThemePage": "https://www.lego.com/en-gb/themes/jurassic-world",
+      "logoImage": "https://www.lego.com/cdn/cs/set/assets/bltd1a38055682d4dd9/Jurassic-Logo-Half_REV.png?fit=bounds&format=png&height=35&dpr=1"
+    },
+    {
+      "id": 20,
+      "name": "LEGO® FORMA",
+      "themeCode": "lego-forma",
+      "legoShopThemePage": "https://www.lego.com/en-gb/themes/lego-forma",
+      "logoImage": "https://www.lego.com/cdn/cs/set/assets/bltc698c7e6ffb10109/Forma_Logo_100h.png?fit=bounds&format=png&height=35&dpr=1"
+    },
+    {
+      "id": 21,
+      "name": "LEGO® Spider-Man",
+      "themeCode": "lego-spider-man",
+      "legoShopThemePage": "https://www.lego.com/en-gb/themes/lego-spider-man",
+      "logoImage": "https://www.lego.com/cdn/cs/set/assets/blt2246d03e40ae0489/spiderman--2019--gl--logo.png?fit=bounds&format=png&height=35&dpr=1"
+    },
+    {
+      "id": 22,
+      "name": "LEGO® Marvel",
+      "themeCode": "marvel",
+      "legoShopThemePage": "https://www.lego.com/en-gb/themes/marvel",
+      "logoImage": "https://www.lego.com/cdn/cs/set/assets/blt3006313aaf120fa0/marvel--2019--gl--logo.png?fit=bounds&format=png&height=35&dpr=1"
+    },
+    {
+      "id": 23,
+      "name": "MINDSTORMS®",
+      "themeCode": "mindstorms",
+      "legoShopThemePage": "https://www.lego.com/en-gb/themes/mindstorms",
+      "logoImage": "https://www.lego.com/cdn/cs/set/assets/blt90b432883fced226/logo--mindstorms.png?fit=bounds&format=png&height=35&dpr=1"
+    },
+    {
+      "id": 24,
+      "name": "Minecraft™",
+      "themeCode": "minecraft",
+      "legoShopThemePage": "https://www.lego.com/en-gb/themes/minecraft",
+      "logoImage": "https://www.lego.com/cdn/cs/set/assets/bltea5d553aa991dc8b/minecraft--201606--gl--logo.png?fit=bounds&format=png&height=35&dpr=1"
+    },
+    {
+      "id": 25,
+      "name": "Minifigures",
+      "themeCode": "minifigures",
+      "legoShopThemePage": "https://www.lego.com/en-gb/themes/minifigures",
+      "logoImage": "https://www.lego.com/cdn/cs/set/assets/blt6d95899be0411372/minifigures--201606--gl--logo.png?fit=bounds&format=png&height=35&dpr=1"
+    },
+    {
+      "id": 26,
+      "name": "NEXO KNIGHTS™",
+      "themeCode": "nexo-knights",
+      "legoShopThemePage": "https://www.lego.com/en-gb/themes/nexo-knights",
+      "logoImage": null
+    },
+    {
+      "id": 27,
+      "name": "Overwatch®",
+      "themeCode": "overwatch",
+      "legoShopThemePage": "https://www.lego.com/en-gb/themes/overwatch",
+      "logoImage": "https://www.lego.com/cdn/cs/set/assets/blt81c25aa443e5b8e7/overwatch-black--2018--gl--logo.png?fit=bounds&format=png&height=35&dpr=1"
+    },
+    {
+      "id": 28,
+      "name": "Power Functions",
+      "themeCode": "power-functions",
+      "legoShopThemePage": "https://www.lego.com/en-gb/themes/power-functions",
+      "logoImage": "https://www.lego.com/cdn/cs/set/assets/blt501be36455761b04/power-functions--201606--gl--logo.png?fit=bounds&format=png&height=35&dpr=1"
+    },
+    {
+      "id": 29,
+      "name": "Powered UP",
+      "themeCode": "powered-up",
+      "legoShopThemePage": "https://www.lego.com/en-gb/themes/powered-up",
+      "logoImage": "https://www.lego.com/cdn/cs/set/assets/blt47dbe983d6faea3e/Powered-Up-Logo.png?fit=bounds&format=png&height=35&dpr=1"
+    },
+    {
+      "id": 30,
+      "name": "NINJAGO®",
+      "themeCode": "ninjago",
+      "legoShopThemePage": "https://www.lego.com/en-gb/themes/ninjago",
+      "logoImage": "https://www.lego.com/cdn/cs/set/assets/bltc26efeafda5f77e6/ninjago_logo_neg_300w.png?fit=bounds&format=png&height=35&dpr=1"
+    },
+    {
+      "id": 31,
+      "name": "LEGO® Batman",
+      "themeCode": "lego-batman-sets",
+      "legoShopThemePage": "https://www.lego.com/en-gb/themes/lego-batman-sets",
+      "logoImage": "https://www.lego.com/cdn/cs/set/assets/blt6a1c54f26cc77e7a/batman--201808--gl--logo.png?fit=bounds&format=png&height=35&dpr=1"
+    },
+    {
+      "id": 32,
+      "name": "Powerpuff Girls™",
+      "themeCode": "powerpuff-girls",
+      "legoShopThemePage": "https://www.lego.com/en-gb/themes/powerpuff-girls",
+      "logoImage": null
+    },
+    {
+      "id": 33,
+      "name": "SERIOUS PLAY®",
+      "themeCode": "serious-play",
+      "legoShopThemePage": "https://www.lego.com/en-gb/themes/serious-play",
+      "logoImage": "https://www.lego.com/cdn/cs/set/assets/blt7e92c9f2928d53f6/logo--serious-play.png?fit=bounds&format=png&height=35&dpr=1"
+    },
+    {
+      "id": 34,
+      "name": "Speed Champions",
+      "themeCode": "speed-champions",
+      "legoShopThemePage": "https://www.lego.com/en-gb/themes/speed-champions",
+      "logoImage": "https://www.lego.com/cdn/cs/set/assets/blta33de74ce9df2dc5/speed-champions--201801--logo.png?fit=bounds&format=png&height=35&dpr=1"
+    },
+    {
+      "id": 35,
+      "name": "Star Wars™",
+      "themeCode": "star-wars",
+      "legoShopThemePage": "https://www.lego.com/en-gb/themes/star-wars",
+      "logoImage": "https://www.lego.com/cdn/cs/set/assets/blt878a92811ede5517/star-wars-black--201606--gl--logo.png?fit=bounds&format=png&height=35&dpr=1"
+    },
+    {
+      "id": 36,
+      "name": "Technic™",
+      "themeCode": "technic",
+      "legoShopThemePage": "https://www.lego.com/en-gb/themes/technic",
+      "logoImage": "https://www.lego.com/cdn/cs/set/assets/blt7414f80cb207c3a3/technic--201606--gl--logo.png?fit=bounds&format=png&height=35&dpr=1"
+    },
+    {
+      "id": 37,
+      "name": "Stranger Things",
+      "themeCode": "stranger-things",
+      "legoShopThemePage": "https://www.lego.com/en-gb/themes/stranger-things",
+      "logoImage": "https://www.lego.com/cdn/cs/set/assets/blt5263e797537376bc/Stranger-Things-logo.png?fit=bounds&format=png&height=35&dpr=1"
+    },
+    {
+      "id": 38,
+      "name": "THE LEGO® BATMAN MOVIE",
+      "themeCode": "the-lego-batman-movie",
+      "legoShopThemePage": "https://www.lego.com/en-gb/themes/the-lego-batman-movie",
+      "logoImage": null
+    },
+    {
+      "id": 39,
+      "name": "THE LEGO® MOVIE 2™",
+      "themeCode": "the-lego-movie-2",
+      "legoShopThemePage": "https://www.lego.com/en-gb/themes/the-lego-movie-2",
+      "logoImage": "https://www.lego.com/cdn/cs/set/assets/blt360b76a9601824b9/lego-movie-2-logo.png?fit=bounds&format=png&height=35&dpr=1"
+    },
+    {
+      "id": 40,
+      "name": "THE LEGO® NINJAGO® MOVIE™",
+      "themeCode": "the-lego-ninjago-movie",
+      "legoShopThemePage": "https://www.lego.com/en-gb/themes/the-lego-ninjago-movie",
+      "logoImage": "https://www.lego.com/cdn/cs/set/assets/blt8ce980e276256f67/ninjago-movie-logo.png?fit=bounds&format=png&height=35&dpr=1"
+    },
+    {
+      "id": 41,
+      "name": "Toy Story 4",
+      "themeCode": "toy-story-4",
+      "legoShopThemePage": "https://www.lego.com/en-gb/themes/toy-story-4",
+      "logoImage": "https://www.lego.com/cdn/cs/set/assets/bltad4a0cd13227f01a/toy-story-4-logo-blue.png?fit=bounds&format=png&height=35&dpr=1"
+    },
+    {
+      "id": 42,
+      "name": "LEGO® Trolls World Tour",
+      "themeCode": "trolls",
+      "legoShopThemePage": "https://www.lego.com/en-gb/themes/trolls",
+      "logoImage": "https://www.lego.com/cdn/cs/set/assets/blt05cfdbee5e649a9e/trolls_logo.png?fit=bounds&format=png&height=35&dpr=1"
+    },
+    {
+      "id": 43,
+      "name": "Unikitty!™",
+      "themeCode": "unikitty",
+      "legoShopThemePage": "https://www.lego.com/en-gb/themes/unikitty",
+      "logoImage": "https://www.lego.com/cdn/cs/set/assets/blt3877c2593150db46/unikitty--201806--gl--logo.png?fit=bounds&format=png&height=35&dpr=1"
+    },
+    {
+      "id": 44,
+      "name": "Xtra",
+      "themeCode": "xtra",
+      "legoShopThemePage": "https://www.lego.com/en-gb/themes/xtra",
+      "logoImage": "https://www.lego.com/cdn/cs/set/assets/blt0890559ed3133603/xtra--2018--gl--logo.png?fit=bounds&format=png&height=35&dpr=1"
+    },
+    {
+      "id": 45,
+      "name": "LEGO® DOTS",
+      "themeCode": "dots",
+      "legoShopThemePage": "https://www.lego.comhttps://www.lego.com/campaigns/dots",
+      "logoImage": "https://www.lego.com/cdn/cs/set/assets/blt8f2e797317523717/dots_logo_pos_100h.png?fit=bounds&format=png&height=35&dpr=1"
+    },
+    {
+      "id": 46,
+      "name": "LEGO® Minions",
+      "themeCode": "minions",
+      "legoShopThemePage": "https://www.lego.com/en-gb/themes/minions",
+      "logoImage": "https://www.lego.com/cdn/cs/set/assets/blt7e7fea3da6df2f79/minion_logo_pos_100h.png?fit=bounds&format=png&height=35&dpr=1"
+    },
+    {
+      "id": 47,
+      "name": "LEGO® Education",
+      "themeCode": "lego-education-sets",
+      "legoShopThemePage": "https://www.lego.com/en-gb/themes/lego-education-sets",
+      "logoImage": "https://www.lego.com/cdn/cs/set/assets/blt335366de4a841524/education_full_logo_pos_100h.png?fit=bounds&format=png&height=35&dpr=1"
+    },
+    {
+      "id": 48,
+      "name": "LEGO® Super Mario™",
+      "themeCode": "supermario",
+      "legoShopThemePage": "https://www.lego.comhttps://www.lego.com/campaigns/supermario",
+      "logoImage": "https://www.lego.com/cdn/cs/set/assets/blt2dc55864221c88f5/SuperMario-logo-pos_300w.png?fit=bounds&format=png&height=35&dpr=1"
+    },
+    {
+      "id": 49,
+      "name": "Monkie Kid",
+      "themeCode": "monkie-kid",
+      "legoShopThemePage": "https://www.lego.com/en-gb/themes/monkie-kid",
+      "logoImage": "https://www.lego.com/cdn/cs/set/assets/blt85ba91c60bcfd5d8/monkieKid_logo_pos_100h.png?fit=bounds&format=png&height=35&dpr=1"
+    }
+  ],
+  "total": 49
+}

@@ -1,0 +1,27 @@
+<mat-form-field class="chip-list">
+  <mat-chip-list #chipList aria-label="Year selection">
+    <mat-chip
+      *ngFor="let year of chipYears"
+      [selectable]="selectable"
+      [removable]="removable"
+      (removed)="remove(year)"
+    >
+      {{ year }}
+      <mat-icon matChipRemove *ngIf="removable">cancel</mat-icon>
+    </mat-chip>
+    <input
+      placeholder="New year..."
+      #yearInput
+      [formControl]="yearCtrl"
+      [matAutocomplete]="auto"
+      [matChipInputFor]="chipList"
+      [matChipInputSeparatorKeyCodes]="separatorKeysCodes"
+      (matChipInputTokenEnd)="add($event)"
+    />
+  </mat-chip-list>
+  <mat-autocomplete #auto="matAutocomplete" (optionSelected)="selected($event)">
+    <mat-option *ngFor="let year of filteredYears | async" [value]="year">
+      {{ year }}
+    </mat-option>
+  </mat-autocomplete>
+</mat-form-field>

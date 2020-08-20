@@ -1,0 +1,113 @@
+{
+  "results": [
+    {
+      "id": 6,
+      "name": "Investments",
+      "setsTotal": 19,
+      "piecesTotal": 5120,
+      "minifigsTotal": 21,
+      "rrpTotal": 394.96,
+      "collectionItems": [
+        {
+          "id": 22,
+          "collectionId": 6,
+          "collectionName": "Investments",
+          "productId": 3122,
+          "productName": "Women of NASA",
+          "productCode": "21312",
+          "quantity": 10,
+          "purchasePrice": 19.99,
+          "purchaseDate": null
+        },
+        {
+          "id": 24,
+          "collectionId": 6,
+          "collectionName": "Investments",
+          "productId": 3123,
+          "productName": "Old Fishing Store",
+          "productCode": "21310",
+          "quantity": 2,
+          "purchasePrice": 119.99,
+          "purchaseDate": "2020-07-15T00:00:00"
+        },
+        {
+          "id": 25,
+          "collectionId": 6,
+          "collectionName": "Investments",
+          "productId": 2409,
+          "productName": "The Upside Down",
+          "productCode": "75810",
+          "quantity": 1,
+          "purchasePrice": 179.99,
+          "purchaseDate": null
+        },
+        {
+          "id": 34,
+          "collectionId": 6,
+          "collectionName": "Investments",
+          "productId": 3386,
+          "productName": "The Beatles Yellow Submarine",
+          "productCode": "21306",
+          "quantity": 6,
+          "purchasePrice": 54.99,
+          "purchaseDate": "2020-07-28T00:00:00"
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "name": "Eddie",
+      "setsTotal": 5,
+      "piecesTotal": 388,
+      "minifigsTotal": 4,
+      "rrpTotal": 43.46,
+      "collectionItems": [
+        {
+          "id": 35,
+          "collectionId": 7,
+          "collectionName": "Eddie",
+          "productId": 3544,
+          "productName": "Jay Walker One",
+          "productCode": "70731",
+          "quantity": 1,
+          "purchasePrice": 29.99,
+          "purchaseDate": null
+        },
+        {
+          "id": 51,
+          "collectionId": 7,
+          "collectionName": "Eddie",
+          "productId": 2341,
+          "productName": "LEGO® Power Functions Extension Wire 20”",
+          "productCode": "8871",
+          "quantity": 1,
+          "purchasePrice": 3.49,
+          "purchaseDate": null
+        },
+        {
+          "id": 52,
+          "collectionId": 7,
+          "collectionName": "Eddie",
+          "productId": 2345,
+          "productName": "LEGO® Power Functions M-Motor",
+          "productCode": "8883",
+          "quantity": 2,
+          "purchasePrice": 5.99,
+          "purchaseDate": null
+        },
+        {
+          "id": 53,
+          "collectionId": 7,
+          "collectionName": "Eddie",
+          "productId": 2458,
+          "productName": "LEGO® Super Heroes Wonder Woman Keyring",
+          "productCode": "853433",
+          "quantity": 1,
+          "purchasePrice": 3.99,
+          "purchaseDate": null
+        }
+      ]
+    }
+  ],
+  "total": 2
+}

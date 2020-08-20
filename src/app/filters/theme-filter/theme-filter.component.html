@@ -1,0 +1,10 @@
+<div *ngIf="lastLoaded$ | async as lastLoaded; else loading">
+  <app-theme-filter-chips
+    [themes]="themes$ | async"
+    (themeSelected)="selectThemes($event)"
+    [initValues]="initValues"
+  ></app-theme-filter-chips>
+</div>
+<ng-template #loading>
+  loading...
+</ng-template>

@@ -1,0 +1,21 @@
+<div>
+  <table>
+    <thead>
+      <tr>
+        <th>Theme</th>
+        <th></th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr *ngFor="let theme of themes$ | async">
+        <td>{{ theme.name }}</td>
+        <td>
+          <div>
+            <button mat-button (click)="runSpider(theme)">Run Spider</button>
+            {{ runStatus }}
+          </div>
+        </td>
+      </tr>
+    </tbody>
+  </table>
+</div>
