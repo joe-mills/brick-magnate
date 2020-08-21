@@ -7,7 +7,7 @@
     [mode]="(isHandset$ | async) ? 'over' : 'side'"
     [opened]="(isHandset$ | async) === false"
   >
-    <mat-toolbar>Brick Magnate</mat-toolbar>
+    <mat-toolbar><span [routerLink]="'/'">Brick Magnate</span></mat-toolbar>
     <mat-divider></mat-divider>
     <app-login-menu></app-login-menu>
     <mat-nav-list>
@@ -81,6 +81,9 @@
   </mat-sidenav>
 
   <mat-sidenav-content>
+    <!-- <div class="demo-banner">
+      This site is intended for demo purposes only
+    </div> -->
     <mat-toolbar color="primary">
       <button
         type="button"

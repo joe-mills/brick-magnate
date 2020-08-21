@@ -36,6 +36,8 @@
     "@fortawesome/pro-light-svg-icons": "^5.14.0",
     "@fortawesome/pro-regular-svg-icons": "^5.14.0",
     "@fortawesome/pro-solid-svg-icons": "^5.14.0",
+    "@ng-select/ng-option-highlight": "0.0.5",
+    "@ng-select/ng-select": "^5.0.1",
     "@ngrx/effects": "^9.2.0",
     "@ngrx/entity": "^9.2.0",
     "@ngrx/schematics": "^9.2.0",

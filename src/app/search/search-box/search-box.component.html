@@ -1,9 +1,9 @@
-<form
-  class="search-form example-form"
+<!-- <form
+  class="search-form search-form"
   [formGroup]="form"
   (ngSubmit)="onSubmit()"
 >
-  <mat-form-field class="example-full-width">
+  <mat-form-field class="search-full-width" floatLabel="never">
     <input
       matInput
       placeholder=" Search.."
@@ -35,4 +35,39 @@
       </mat-option>
     </mat-autocomplete>
   </mat-form-field>
-</form>
+</form> -->
+<ng-select
+  class="search-form"
+  [items]="searchItems$ | async"
+  [(ngModel)]="selectedCity"
+  [typeahead]="searchInput$"
+  bindLabel="name"
+  bindValue="name"
+  (change)="searchItemSelect($event)"
+  clearSearchOnAdd="true"
+  placeholder="Search..."
+>
+  <ng-template
+    ng-option-tmp
+    let-item="item"
+    let-index="index"
+    let-search="searchTerm"
+  >
+    <div style="margin: 10px 0;">
+      <div class="search-item-container">
+        <img [src]="item.imageUrl | image" alt="" />
+        <div class="">
+          <p class="search-item-name">
+            {{ item.name }}
+          </p>
+          <p data-test="search-item-code" class="">
+            {{ item.productCode }}
+          </p>
+          <p data-test="search-item-price" class="">
+            {{ item.price | currency: 'GBP' }}
+          </p>
+        </div>
+      </div>
+    </div>
+  </ng-template>
+</ng-select>
