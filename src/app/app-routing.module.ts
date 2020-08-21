@@ -4,6 +4,7 @@ import { ProductsPageResolver } from './products/products-page.resolver';
 import { AuthorizeGuard } from './api-authorization/authorize.guard';
 import { CollectionPageComponent } from './collections/collection-page/collection-page.component';
 import { CollectionsPageComponent } from './collections/collections-page/collections-page.component';
+import { DashboardComponent } from './dashboard/dashboard.component';
 
 const routes: Routes = [
   {
@@ -24,6 +25,10 @@ const routes: Routes = [
     path: 'themes',
     loadChildren: () =>
       import('./themes/themes.module').then((m) => m.ThemesModule),
+  },
+  {
+    path: '',
+    component: DashboardComponent,
   },
 ];
 
