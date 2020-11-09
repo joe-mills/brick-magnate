@@ -1,4 +1,4 @@
-<div class="d-flex justify-content-between collection-info-squares-container">
+<!-- <div class="d-flex justify-content-between collection-info-squares-container">
   <div class="collection-info-square">
     <span class="box-value">{{ collection.setsTotal }}</span>
     <span class="box-label">
@@ -24,5 +24,44 @@
     <span class="box-label">
       RRP
     </span>
+  </div>
+</div> -->
+
+<div
+  class="d-flex justify-content-around flex-wrap collection-info-squares-container"
+>
+  <div class="collection-info-square">
+    <mat-card>
+      <span class="box-value">{{ collection.setsTotal }}</span>
+      <span class="box-label">
+        Sets
+      </span>
+    </mat-card>
+  </div>
+  <div class="collection-info-square">
+    <mat-card>
+      <span class="box-value">{{ collection.piecesTotal }}</span>
+      <span class="box-label">
+        Pieces
+      </span>
+    </mat-card>
+  </div>
+  <div class="collection-info-square">
+    <mat-card>
+      <span class="box-value">{{ collection.minifigsTotal }}</span>
+      <span class="box-label">
+        Minifigs
+      </span>
+    </mat-card>
+  </div>
+  <div class="collection-info-square">
+    <mat-card>
+      <span class="box-value">{{
+        collection.rrpTotal | currency: 'GBP':'symbol'
+      }}</span>
+      <span class="box-label">
+        RRP
+      </span>
+    </mat-card>
   </div>
 </div>

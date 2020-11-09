@@ -1,22 +1,19 @@
 import { Injectable } from '@angular/core';
 import { HttpClient } from '@angular/common/http';
 import { Observable, BehaviorSubject } from 'rxjs';
-import { Theme } from './theme';
 import { delay, publishLast, refCount, tap } from 'rxjs/operators';
-export interface ThemeResponse {
-  results: Theme[];
+import { ProductImage } from './product-image';
+export interface ProductImageResponse {
+  results: ProductImage[];
   total: number;
 }
 @Injectable({
   providedIn: 'root',
 })
-export class ThemeService {
+export class ProductImageService {
   constructor(private http: HttpClient) {}
 
-  get(): Observable<ThemeResponse> {
-    return this.http.get<ThemeResponse>('api/themes');
-  }
-  getByCode(code: number): Observable<Theme> {
-    return this.http.get<Theme>(`api/themes/${code}`);
+  get(): Observable<ProductImageResponse> {
+    return this.http.get<ProductImageResponse>('api/productimages');
   }
 }

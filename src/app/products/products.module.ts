@@ -35,6 +35,7 @@ import { MatBadgeModule } from '@angular/material/badge';
 import { AuthorizeGuard } from '../api-authorization/authorize.guard';
 import { MatTabsModule } from '@angular/material/tabs';
 import { SharedModule } from '../shared/shared.module';
+import { ProductImagesPageComponent } from './product-images-page/product-images-page.component';
 export const routes: Routes = [
   {
     path: '',
@@ -66,6 +67,7 @@ export const routes: Routes = [
     ProductCardMediumComponent,
     ProductDetailSwitchComponent,
     ProductCollectionsDialogComponent,
+    ProductImagesPageComponent,
   ],
   imports: [
     CommonModule,

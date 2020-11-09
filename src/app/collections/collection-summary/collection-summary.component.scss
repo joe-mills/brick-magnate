@@ -1,14 +1,14 @@
 .collection-info-squares-container {
-  justify-content: center;
-  width: 100%;
+  // justify-content: center;
+
 }
 .collection-info-square {
-  width: 100%;
-  padding: 0.8rem 1.9rem;
-  display: flex;
-  align-items: center;
-  flex-direction: column;
-  border-left: 1px solid rgb(224, 224, 224);
+  // width: 100%;
+  padding: 5px;
+  // display: flex;
+  // align-items: center;
+  // flex-direction: column;
+  // border-left: 1px solid rgb(224, 224, 224);
   &:first-child {
     border-left: 0px;
   }
@@ -23,4 +23,12 @@
   font-size: 1.1rem;
   line-height: 2rem;
   align-items: center;
+}
+mat-card {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  min-width: 200px;
+  max-width: 350px;
 }
