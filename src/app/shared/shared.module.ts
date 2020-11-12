@@ -12,6 +12,8 @@ import { MatButtonModule } from '@angular/material/button';
 import { ImagePipe } from './image.pipe';
 import { ImageLoaderComponent } from './image-loader/image-loader.component';
 import { MaterialElevationDirective } from './material-elevation.directive';
+import { PagerComponent } from './pager/pager.component';
+import { MatPaginatorModule } from '@angular/material/paginator';
 @NgModule({
   declarations: [
     LoadingSpinnerComponent,
@@ -22,6 +24,7 @@ import { MaterialElevationDirective } from './material-elevation.directive';
     ImagePipe,
     ImageLoaderComponent,
     MaterialElevationDirective,
+    PagerComponent,
   ],
   exports: [
     LoadingSpinnerComponent,
@@ -31,9 +34,11 @@ import { MaterialElevationDirective } from './material-elevation.directive';
     ImagePipe,
     ImageLoaderComponent,
     MaterialElevationDirective,
+    PagerComponent,
   ],
   imports: [
     CommonModule,
+    MatPaginatorModule,
     MatProgressSpinnerModule,
     MatProgressBarModule,
     MatButtonModule,

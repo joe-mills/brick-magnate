@@ -27,6 +27,13 @@ const routes: Routes = [
       import('./themes/themes.module').then((m) => m.ThemesModule),
   },
   {
+    path: 'product-images',
+    loadChildren: () =>
+      import('./product-images/product-images.module').then(
+        (m) => m.ProductImagesModule
+      ),
+  },
+  {
     path: '',
     component: DashboardComponent,
   },

@@ -46,7 +46,7 @@ export class ProductsPageComponent implements OnInit, OnDestroy {
   ) {}
 
   ngOnInit(): void {
-    combineLatest(this.route.params, this.route.queryParams)
+    combineLatest([this.route.params, this.route.queryParams])
       .pipe(map((results) => ({ params: results[0], query: results[1] })))
       .subscribe((results) => {
         console.log(results);

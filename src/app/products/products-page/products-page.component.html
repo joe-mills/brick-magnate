@@ -20,12 +20,12 @@
         [collectionId]="collectionId"
         (productSelected)="selectProduct($event)"
       ></app-products-list>
-      <app-product-pager
+      <app-pager
         [length]="(total$ | async) || 0"
         [pageIndex]="page - 1"
         (onNextPage)="loadNextPage()"
         (onPreviousPage)="loadPreviousPage()"
-      ></app-product-pager>
+      ></app-pager>
     </div>
     <ng-template #loading>
       Loading...

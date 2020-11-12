@@ -13,7 +13,6 @@ import { MatFormFieldModule } from '@angular/material/form-field';
 import { ReactiveFormsModule } from '@angular/forms';
 import { FiltersModule } from '../filters/filters.module';
 import { MatPaginatorModule } from '@angular/material/paginator';
-import { ProductPagerComponent } from './product-pager/product-pager.component';
 import { CollectionsModule } from '../collections/collections.module';
 import * as fromProduct from './state/product.reducer';
 import { StoreModule } from '@ngrx/store';
@@ -24,7 +23,6 @@ import { ProductInfoSquaresComponent } from './product-info-squares/product-info
 import { ProductCardCompactComponent } from './product-card-compact/product-card-compact.component';
 import { ProductCardMediumComponent } from './product-card-medium/product-card-medium.component';
 import { ProductDetailSwitchComponent } from './product-detail-switch/product-detail-switch.component';
-import { ImagePipe } from '../shared/image.pipe';
 import { MatExpansionModule } from '@angular/material/expansion';
 import { MatIconModule } from '@angular/material/icon';
 import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
@@ -35,7 +33,6 @@ import { MatBadgeModule } from '@angular/material/badge';
 import { AuthorizeGuard } from '../api-authorization/authorize.guard';
 import { MatTabsModule } from '@angular/material/tabs';
 import { SharedModule } from '../shared/shared.module';
-import { ProductImagesPageComponent } from './product-images-page/product-images-page.component';
 export const routes: Routes = [
   {
     path: '',
@@ -61,13 +58,11 @@ export const routes: Routes = [
     ProductDetailsComponent,
     ProductInfoComponent,
     ProductFiltersComponent,
-    ProductPagerComponent,
     ProductInfoSquaresComponent,
     ProductCardCompactComponent,
     ProductCardMediumComponent,
     ProductDetailSwitchComponent,
     ProductCollectionsDialogComponent,
-    ProductImagesPageComponent,
   ],
   imports: [
     CommonModule,

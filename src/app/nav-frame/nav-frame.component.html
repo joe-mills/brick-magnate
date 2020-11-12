@@ -39,7 +39,20 @@
           Themes</span
         >
       </mat-list-item>
-
+      <mat-list-item
+        routerLinkActive="router-link-active"
+        [routerLinkActiveOptions]="{ exact: true }"
+        [routerLink]="['/product-images']"
+      >
+        <span matLine>
+          <fa-icon
+            class="menu-icon"
+            mat-list-icon
+            [icon]="['fad', 'image']"
+          ></fa-icon>
+          Images</span
+        >
+      </mat-list-item>
       <mat-list-item
         routerLinkActive="router-link-active"
         [routerLinkActiveOptions]="{ exact: true }"
@@ -76,9 +89,7 @@
       </mat-list-item>
     </mat-nav-list>
   </mat-sidenav>
-  <mat-sidenav #left position="end" [mode]="'Push'">
-    End Sidenav.
-  </mat-sidenav>
+  <mat-sidenav #left position="end" [mode]="'Push'"> End Sidenav. </mat-sidenav>
 
   <mat-sidenav-content>
     <!-- <div class="demo-banner">

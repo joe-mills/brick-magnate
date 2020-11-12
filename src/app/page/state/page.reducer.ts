@@ -11,6 +11,7 @@ export enum PageSources {
   PRODUCTS,
   APP,
   PRODUCTSCOLLECTION,
+  PRODUCTIMAGES
 }
 export interface PageState extends EntityState<PageQuery> {
   loadedPages: LoadedPage[];
