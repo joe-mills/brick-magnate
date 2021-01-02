@@ -1,9 +1,4 @@
-import {
-  async,
-  ComponentFixture,
-  TestBed,
-  fakeAsync,
-} from '@angular/core/testing';
+import { ComponentFixture, TestBed, fakeAsync, waitForAsync } from '@angular/core/testing';
 
 import { CollectionPageComponent } from './collection-page.component';
 import { CollectionsModule } from '../collections.module';
@@ -44,7 +39,7 @@ describe('CollectionPageComponent', () => {
     },
   };
 
-  beforeEach(async(() => {
+  beforeEach(waitForAsync(() => {
     TestBed.configureTestingModule({
       declarations: [CollectionPageComponent, CollectionFormStubComponent],
       imports: [

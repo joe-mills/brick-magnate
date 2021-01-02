@@ -2,11 +2,11 @@ import { Component, OnInit, Input, Output, EventEmitter } from '@angular/core';
 import { PageEvent } from '@angular/material/paginator';
 
 @Component({
-  selector: 'app-product-pager',
-  templateUrl: './product-pager.component.html',
-  styleUrls: ['./product-pager.component.scss'],
+  selector: 'app-pager',
+  templateUrl: './pager.component.html',
+  styleUrls: ['./pager.component.scss'],
 })
-export class ProductPagerComponent implements OnInit {
+export class PagerComponent implements OnInit {
   @Input() length: number;
   @Input() pageIndex: number;
   @Output() onNextPage = new EventEmitter<boolean>();

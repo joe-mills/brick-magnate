@@ -1,0 +1,10 @@
+<div class="d-flex flex-wrap">
+  <div *ngFor="let productImage of productImages">
+    <mat-card class="m-2">
+      <app-product-image-item
+        [productImage]="productImage"
+        (imageUpdated)="updateImage($event)"
+      ></app-product-image-item>
+    </mat-card>
+  </div>
+</div>

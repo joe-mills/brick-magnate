@@ -1,4 +1,4 @@
-import { ProductImage } from './product-image';
+import { ProductImage } from '../product-images/product-image';
 import { ProductLink } from './product-link';
 import { ProductCategory } from './product-category';
 import { Collection } from '../collections/collection';
