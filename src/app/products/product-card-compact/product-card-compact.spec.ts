@@ -1,4 +1,4 @@
-import { TestBed, async, ComponentFixture } from '@angular/core/testing';
+import { TestBed, ComponentFixture, waitForAsync } from '@angular/core/testing';
 import { ProductCardCompactComponent } from './product-card-compact.component';
 import { ProductsModule } from '../products.module';
 import { NoopAnimationsModule } from '@angular/platform-browser/animations';
@@ -44,7 +44,7 @@ describe('ProductCardCompactComponent', () => {
     },
   };
 
-  beforeEach(async(() => {
+  beforeEach(waitForAsync(() => {
     TestBed.configureTestingModule({
       declarations: [
         ImagePipe,

@@ -1,4 +1,4 @@
-import { async, ComponentFixture, TestBed } from '@angular/core/testing';
+import { ComponentFixture, TestBed, waitForAsync } from '@angular/core/testing';
 
 import { CollectionFormComponent } from './collection-form.component';
 import { ReactiveFormsModule, FormBuilder } from '@angular/forms';
@@ -14,7 +14,7 @@ describe('CollectionFormComponent', () => {
   let collection1: Collection = setupCollections().find((x) => x.id === 1);
   const formBuilder: FormBuilder = new FormBuilder();
 
-  beforeEach(async(() => {
+  beforeEach(waitForAsync(() => {
     TestBed.configureTestingModule({
       declarations: [CollectionFormComponent],
       imports: [
