@@ -1,6 +1,6 @@
 {
   "/api": {
-    "target": "http://172.20.208.1:5000",
+    "target": "http://172.28.48.1:5000",
     "secure": false,
     "pathRewrite": {
       "^/api": ""
@@ -8,7 +8,7 @@
     "changeOrigin": true
   },
   "/auth/": {
-    "target": "http://172.20.208.1:5006",
+    "target": "http://172.28.48.1:5006",
     "secure": false,
     "pathRewrite": {
       "^/auth/": ""
@@ -16,7 +16,7 @@
     "changeOrigin": true
   },
   "/.well-known": {
-    "target": "http://172.20.208.1:5006",
+    "target": "http://172.28.48.1:5006",
     "secure": false,
     "changeOrigin": true
   }
