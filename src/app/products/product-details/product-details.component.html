@@ -25,7 +25,8 @@
         <div class="thumbs-container">
           <div *ngFor="let thumb of product.inventory.minifigs">
             <div *ngIf="thumb.filename" class="minifig-container">
-              <img [src]="'api/' + thumb.imageSrc + '?width=150'" />
+              <!-- <img [src]="'api/' + thumb.imageSrc + '?width=150'" /> -->
+              <img [src]="thumb.imageSrc + '?width=150'" />
             </div>
           </div>
         </div>

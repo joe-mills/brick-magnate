@@ -30,6 +30,7 @@ export class ImagePipe implements PipeTransform {
     if (this.appConfigService.usePlaceholders) {
       return '/assets/stub.png';
     }
-    return `api/${value}?width=${width}`;
+    return `${value}?width=${width}`;
+    // return `api/${value}?width=${width}`;
   }
 }
