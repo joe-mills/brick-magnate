@@ -16,6 +16,8 @@ import { Router } from '@angular/router';
   styleUrls: ['./nav-frame.component.scss'],
 })
 export class NavFrameComponent implements OnInit {
+  isIframe = false;
+
   isHandset$: Observable<boolean> = this.breakpointObserver
     .observe(Breakpoints.Handset)
     .pipe(
@@ -32,6 +34,8 @@ export class NavFrameComponent implements OnInit {
   ) {}
 
   ngOnInit() {
+    this.isIframe = window !== window.parent && !window.opener;
+
     this.store.dispatch(loadCollections());
     this.collections$ = this.store.select(selectCollections);
   }

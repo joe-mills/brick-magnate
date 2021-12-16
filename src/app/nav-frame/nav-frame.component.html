@@ -115,7 +115,7 @@
     <messages></messages>
     <div class="content-container">
       <app-error-alert [errorOutlet]="errorOutlet"></app-error-alert>
-      <router-outlet></router-outlet>
+      <router-outlet  *ngIf="!isIframe"></router-outlet>
     </div>
     <div>
       <button mat-button (click)="left.open()">right</button>

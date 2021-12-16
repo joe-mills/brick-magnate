@@ -10,6 +10,7 @@ export class AppComponent implements OnInit {
   title = 'lego-market-client';
   constructor(private appConfigService: AppConfigService) {}
   ngOnInit(): void {
+
     this.appConfigService.getTestConfig().subscribe();
   }
 }

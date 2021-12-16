@@ -1,4 +1,4 @@
-<div *ngIf="isAuthenticated | async">
+<div *ngIf="loginDisplay">
   <mat-accordion>
     <mat-expansion-panel>
       <mat-expansion-panel-header>
@@ -8,37 +8,28 @@
           </div>
           <div>
             {{ userName | async }}
+            {{ displayName }}
           </div>
         </mat-panel-title>
       </mat-expansion-panel-header>
 
       <mat-list-item routerLink="[child.route]">
         <div>
-          <a
-            class="nav-link"
-            [routerLink]="['/authentication/logout']"
-            [state]="{ local: true }"
-            title="Logout"
-            >Logout</a
-          >
+          <a class="nav-link" (click)="logout()">Logout</a>
         </div>
       </mat-list-item>
     </mat-expansion-panel>
   </mat-accordion>
 </div>
-<div *ngIf="!(isAuthenticated | async)" class="log-in">
-  <div
-    class="d-flex justify-content-between"
-    *ngIf="!(isAuthenticated | async)"
-  >
+<div *ngIf="!loginDisplay" class="log-in">
+  <div class="d-flex justify-content-between" *ngIf="!loginDisplay">
     <div class="">
-      <a class="nav-link" [routerLink]="['/authentication/login']">Login</a>
+      <a class="nav-link" (click)="login()">Login</a>
     </div>
     <div>
       <a class="nav-link" [routerLink]="['/authentication/register']"
         >Register</a
       >
     </div>
-   
   </div>
 </div>

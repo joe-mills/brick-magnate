@@ -26,6 +26,58 @@ import { AuthorizeInterceptor } from './api-authorization/authorize.interceptor'
 import { ApiAuthorizationModule } from './api-authorization/api-authorization.module';
 import { DashboardComponent } from './dashboard/dashboard.component';
 import { MatCardModule } from '@angular/material/card';
+import {
+  InteractionType,
+  IPublicClientApplication,
+  PublicClientApplication,
+} from '@azure/msal-browser';
+import { msalConfig, protectedResources } from './auth/auth-config';
+import {
+  MsalBroadcastService,
+  MsalGuard,
+  MsalGuardConfiguration,
+  MsalInterceptor,
+  MsalInterceptorConfiguration,
+  MsalModule,
+  MsalRedirectComponent,
+  MsalService,
+  MSAL_GUARD_CONFIG,
+  MSAL_INSTANCE,
+  MSAL_INTERCEPTOR_CONFIG,
+} from '@azure/msal-angular';
+
+/**
+ * Here we pass the configuration parameters to create an MSAL instance.
+ * For more info, visit: https://github.com/AzureAD/microsoft-authentication-library-for-js/blob/dev/lib/msal-angular/docs/v2-docs/configuration.md
+ */
+export function MSALInstanceFactory(): IPublicClientApplication {
+  return new PublicClientApplication(msalConfig);
+}
+
+export function MSALGuardConfigFactory(): MsalGuardConfiguration {
+  return {
+    interactionType: InteractionType.Redirect,
+  };
+}
+
+/**
+ * MSAL Angular will automatically retrieve tokens for resources
+ * added to protectedResourceMap. For more info, visit:
+ * https://github.com/AzureAD/microsoft-authentication-library-for-js/blob/dev/lib/msal-angular/docs/v2-docs/initialization.md#get-tokens-for-web-api-calls
+ */
+export function MSALInterceptorConfigFactory(): MsalInterceptorConfiguration {
+  const protectedResourceMap = new Map<string, Array<string>>();
+
+  protectedResourceMap.set(
+    protectedResources.brickMagnateApi.endpoint,
+    protectedResources.brickMagnateApi.scopes
+  );
+
+  return {
+    interactionType: InteractionType.Redirect,
+    protectedResourceMap,
+  };
+}
 
 @NgModule({
   declarations: [AppComponent, DashboardComponent],
@@ -38,7 +90,8 @@ import { MatCardModule } from '@angular/material/card';
     SharedModule,
     MatCardModule,
     HttpClientModule,
-    ApiAuthorizationModule,
+    // ApiAuthorizationModule,
+    MsalModule,
     StoreModule.forRoot(reducers, {
       metaReducers,
     }),
@@ -49,9 +102,29 @@ import { MatCardModule } from '@angular/material/card';
     EffectsModule.forRoot([ThemeEffects]),
   ],
   providers: [
-    { provide: HTTP_INTERCEPTORS, useClass: AuthorizeInterceptor, multi: true },
+    // { provide: HTTP_INTERCEPTORS, useClass: AuthorizeInterceptor, multi: true },
+    {
+      provide: HTTP_INTERCEPTORS,
+      useClass: MsalInterceptor,
+      multi: true,
+    },
+    {
+      provide: MSAL_INSTANCE,
+      useFactory: MSALInstanceFactory,
+    },
+    {
+      provide: MSAL_GUARD_CONFIG,
+      useFactory: MSALGuardConfigFactory,
+    },
+    {
+      provide: MSAL_INTERCEPTOR_CONFIG,
+      useFactory: MSALInterceptorConfigFactory,
+    },
+    MsalService,
+    MsalGuard,
+    MsalBroadcastService,
   ],
-  bootstrap: [AppComponent],
+  bootstrap: [AppComponent, MsalRedirectComponent],
 })
 export class AppModule {
   constructor(library: FaIconLibrary, faConfig: FaConfig) {
