@@ -1,5 +1,4 @@
 import { Component, Inject, OnInit } from '@angular/core';
-import { AuthorizeService } from '../authorize.service';
 import { Observable, Subject } from 'rxjs';
 import { filter, map, takeUntil, tap } from 'rxjs/operators';
 import {
@@ -32,7 +31,6 @@ export class LoginMenuComponent implements OnInit {
   private readonly _destroying$ = new Subject<void>();
 
   constructor(
-    private authorizeService: AuthorizeService,
     @Inject(MSAL_GUARD_CONFIG) private msalGuardConfig: MsalGuardConfiguration,
     private authService: MsalService,
     private msalBroadcastService: MsalBroadcastService

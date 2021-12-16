@@ -22,7 +22,6 @@ import { StoreDevtoolsModule } from '@ngrx/store-devtools';
 import { environment } from '../environments/environment';
 import { EffectsModule } from '@ngrx/effects';
 import { ThemeEffects } from './themes/state/theme.effects';
-import { AuthorizeInterceptor } from './api-authorization/authorize.interceptor';
 import { ApiAuthorizationModule } from './api-authorization/api-authorization.module';
 import { DashboardComponent } from './dashboard/dashboard.component';
 import { MatCardModule } from '@angular/material/card';
